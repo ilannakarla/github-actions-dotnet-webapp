@@ -1,0 +1,18 @@
+name: Atividade Modulo 4
+
+on:
+   push:
+      branches: [ "main" ]
+   
+   pull_request:
+      branches: [ "main" ]
+
+   schedule:
+      - cron: '30 1 * * 5 '  # executa toda sexta 01:30
+
+jobs:
+    
+    build:
+     steps: 
+      - name: Run a one-line script
+        run: echo Hello, world! this is a test! Sorry for the errors!
