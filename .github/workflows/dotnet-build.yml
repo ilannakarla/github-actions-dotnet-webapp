@@ -13,6 +13,6 @@ on:
 jobs:
     
     build:
-     steps: 
-      - name: Run a one-line script
-        run: echo Hello, world! this is a test! Sorry for the errors...
+     - name: Run a one-line script
+        run: echo Hello, world!
+        
